@@ -8601,3 +8601,10 @@ input, select, textarea {
 			#wrapper.divided > .invert:first-child {
 				box-shadow: none !important;
 			}
+		ul.icons li {
+			margin-right: 50px; /* 你可以根據需要調整間隔大小 */
+		}
+		
+		ul.icons li:last-child {
+			margin-right: 0; /* 確保最後一個圖標右側沒有多餘的間隔 */
+		}
